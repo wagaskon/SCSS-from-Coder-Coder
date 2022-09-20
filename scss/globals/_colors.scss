@@ -1,0 +1,11 @@
+
+// CSS Varibles
+:root{  // :root select the html element but 
+        //it has priority over html element
+    --bg-color: #1c1c1c;  //--bg-clr is varible name
+    --txt-color: #fff;   // varible must start with --
+}
+
+// Sass Varible
+$fonts: 'Open Sans', sans-serif;   
+//SASS defone variable to be start with dollar sign
