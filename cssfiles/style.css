@@ -40,5 +40,26 @@ a:active {
     --txt-color: #fff
 }
 
-/*# sourceMappingURL=style.css.map */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    background-color: #0101a7
+}
 
+@media(min-width: 900px) {
+    .grid {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto
+    }
+}
+
+.grid__main {
+    background-color: #0101a7
+}
+
+.grid__sidebar {
+    background-color: #909
+}
+
+/*# sourceMappingURL=style.css.map */

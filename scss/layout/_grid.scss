@@ -2,11 +2,17 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
-    &__main {// class : grid__main
 
+    @media (min-width: 900px){
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    &__main {// class : grid__main
+        background-color: hsl(240, 99%, 33%);
     } 
     &__sidebar{
-
-    }
+        background-color: hsl(300, 100%, 30%);
+    }background-color: hsl(240, 99%, 33%);
 
 }
